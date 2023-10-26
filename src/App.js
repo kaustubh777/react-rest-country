@@ -15,8 +15,7 @@ function App() {
   const [isLoading, setLoading] = useState(false);
   const [interacted, setInteracted] = useState(false);
 
-  const url =
-    "https://rest-countries-express-backend.onrender.com/getCountries/";
+  const url = "getCountries/";
 
   async function fetchData() {
     setSelected([]);
