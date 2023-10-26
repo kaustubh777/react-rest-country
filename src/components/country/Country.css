@@ -1,0 +1,13 @@
+.country {
+  width: 100%;
+
+  .flag {
+    max-height: 35vh;
+    max-width: 28vw;
+    margin-top: 22vh;
+  }
+  .details {
+    font-family: sans-serif;
+    margin-top: 22vh;
+  }
+}
