@@ -26,11 +26,16 @@ function Country(props) {
     return (
       <div className="row country">
         <div className="col-xs-12 col sm-12 col-md-4 col-lg-4 col-xl-4">
-          <img className="flag" src={props.country.flags.svg} />
+          <img
+            data-cy-flag="flag"
+            className="flag"
+            src={props.country?.flags?.svg}
+            alt={props.country?.flags?.alt}
+          />
         </div>
 
         <div className="col-xs-12 col sm-12 col-md-6 details">
-          <p>Name : {props.country?.name}</p>
+          <p data-cy-name="name">Name : {props.country?.name}</p>
           <p>Capital : {props.country?.capital}</p>
           <p>Region : {props.country?.region}</p>
           <p>Population : {props.country?.population}</p>

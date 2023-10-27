@@ -1,0 +1,48 @@
+[
+    {
+        "flags": {
+            "svg": "https://flagcdn.com/ie.svg",
+            "alt": "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
+        },
+        "name": "Republic of Ireland",
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "region": "Europe",
+        "population": 4994724,
+        "capital": [
+            "Dublin"
+        ],
+        "area": 70273,
+        "borders": [
+            "GBR"
+        ],
+        "id": 0
+    },
+    {
+        "flags": {
+            "svg": "https://flagcdn.com/gb.svg",
+            "alt": "The flag of the United Kingdom — the Union Jack — has a blue field. It features the white-edged red cross of Saint George superimposed on the diagonal red cross of Saint Patrick which is superimposed on the diagonal white cross of Saint Andrew."
+        },
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "currencies": {
+            "GBP": {
+                "name": "British pound",
+                "symbol": "£"
+            }
+        },
+        "region": "Europe",
+        "population": 67215293,
+        "capital": [
+            "London"
+        ],
+        "area": 242900,
+        "borders": [
+            "IRL"
+        ],
+        "id": 1
+    }
+]
