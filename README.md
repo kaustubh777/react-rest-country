@@ -20,7 +20,7 @@
 
 # 4) Running unit tests with Cypress
     * To run unit tests navigate to  react-rest-country folder and open a command prompt in this directory.
-      Run command "npx cypress open" to launch cypress. Select E2E Testing and chrome as the browser.
+      Run commands "npm install cypress --save-dev" and "npx cypress open" to install and launch cypress. Select E2E Testing and chrome as the browser.
       You will see two tests which you can click to run.
 
 # 5) Project optimisations
