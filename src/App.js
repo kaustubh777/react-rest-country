@@ -23,7 +23,8 @@ function App() {
   const [interacted, setInteracted] = useState(false); // user has interacted with the app
   const Country = lazy(() => import("./components/country/Country")); // load the individual country only when the URL is accessed
 
-  const url = "getCountries/";
+  const url =
+    "https://rest-countries-express-backend.onrender.com/getCountries/";
   let whenNoData;
 
   const fetchData = fetchDataService;
